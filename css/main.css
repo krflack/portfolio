@@ -1,0 +1,231 @@
+/***** BASE STYLES *****/
+body{
+  color: #2b2b2b;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+/***** GRID *****/
+.full-width {
+  margin: 0 auto;
+  overflow: auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width{
+  float: left;
+  width: 400px;
+}
+
+/*****HEADER*****/
+
+header {
+  background: #d4d6d9;
+  height: 150px;
+}
+header h1{
+  color: #513c55;
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+  font-weight: normal;
+  padding: 30px 0 25 25px;
+}
+
+nav {
+  float: right;
+  padding: 75px 25px;
+  box-sizing: border-box;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a{
+  color:#513c55;
+  font-size: 25px;
+  padding-left: 80px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header h2 span{
+  color: #2b2b2b;
+}
+/***** Welcome *****/
+#welcome-img{
+  background-position: center;
+  background-size: cover;
+  background: url('../img/swiss-mountains.jpg');
+  height: 800px;
+}
+#welcome-header {
+  clear: both;
+  color: #ffffff;
+  font-family: 'Lora', serif;
+  font-size:72px;
+  line-height:80px;
+  padding: 250px 0 20px 0px;
+  align-content:left;
+  width: 950px;
+}
+/***** About *****/
+.about .full-width {
+  padding: 80px 0;
+
+}
+
+.about h2 {
+  font-family: 'Lora', serif;
+  font-size: 36px;
+  padding-left: 50px;
+}
+
+.about p {
+  color: #7f7f7f;
+  font-size: 21px;
+  line-height: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.about img{
+  border: 5px solid #d3ced2;
+  height: 400px;
+  margin: 120px 100px;
+}
+/* unvisited link */
+.about a:link {
+ color: #969e74;
+ text-decoration: none;
+}
+
+/* visited link */
+.about a:visited {
+ color: #969e74;
+ text-decoration: none;
+}
+
+/* mouse over link */
+.about a:hover {
+ color: #513c55;
+ text-decoration: none;
+}
+
+/* selected link */
+.about a:active {
+ color:  color: #969e74;
+ text-decoration: none;
+}
+
+/*****Contact*****/
+.contact {
+  background-color: #d3ced2;
+
+}
+
+.contact .full-width {
+  padding: 110px 0;
+}
+
+.contact img#contact-img {
+  border: 12px solid #ffffff;
+  margin-left: 25px;
+  height: 350px;
+}
+
+.contact h2, .contact #email-header, .contact #socialmedia-header, .contact ul
+{
+
+}
+
+.contact h2 {
+  font-family:'Lora', serif, bold;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.contact #email-header{
+  font-size: 32px;
+  font-weight:400;
+  line-height:44px;
+  margin: -30px 0 5px 0;
+}
+
+#contact-header {
+  font-size: 29px;
+  font-weight: bold;
+  line-height:44px;
+  margin: 40px 0 0 0;
+}
+
+.contact a{
+  color: #513c55;
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact ul {
+  list-style: none;
+  text-align: center;
+}
+
+.contact ul li{
+  display: inline-block;
+}
+
+.contact ul img{
+  padding-right: 48px;
+}
+/*********************************WORK PAGE*****************************/
+/*****Work*****/
+.work header {
+  color: #513c55;
+  height: 150px;
+}
+.work {
+  background-color: #969e74;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 0 50px;
+}
+.work .full-width{
+  padding:115px 0;
+}
+.work h1 {
+  font-size: 50px;
+}
+.work p {
+  background: #ccdded;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.work img{
+  padding-bottom: 30px;
+}
+.work h3{
+  font-size:40px;
+  line-height: 40px;
+  margin: 0 auto;
+  width: 190px;
+  padding: 20px 50px;
+}
+#rogue img {
+  width: 1200px;
+}
+#recipe img{
+  width: 600px;
+}
+#vision img{
+  width: 1200px;
+}
+#work-footer ul li {
+  display: inline-block;
+  text align: right;
+  padding: 15px;
+}
