@@ -239,11 +239,16 @@ footer .contact-content h4 {
   margin: 10px 0 0 0;
 }
 
-footer .social-icons {
+footer .icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 200px;
+}
+
+footer .social-icons{
+  margin: 20px;
 }
 
 footer .social-icons p i {
@@ -280,22 +285,39 @@ footer .email {
 
 
 /***** Welcome *****/
-#welcome-img{
-  background-position: center;
+.welcome{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  background: url('../img/swiss-mountains.jpg') center no-repeat #333;
   background-size: cover;
-  background: url('../img/swiss-mountains.jpg');
-  height: 800px;
+  min-height: 800px;
+}
+
+#welcome-header{
+  text-align: center;
 }
 /***** About *****/
 .about .full-width {
   padding: 80px 0;
 }
 
+.about-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-left: 20px; 
+}
 
-.about img{
+.about-content h3{
+  margin-bottom: 0;
+}
+
+.about figure{
+  width: 75%;
   border: 5px solid #d3ced2;
-  height: 400px;
-  margin: 120px 100px;
+
 }
 /* unvisited link */
 .about a:link {
