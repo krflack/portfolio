@@ -269,20 +269,6 @@ footer .email {
   font-weight: 700;
 }
 
-#work-footer {
-  background-color: #969e74;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#work-footer .social-icons p {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
 
 /***** Welcome *****/
 .welcome{
@@ -307,7 +293,7 @@ footer .email {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin-left: 20px; 
+  margin-left: 20px;
 }
 
 .about-content h3{
@@ -347,43 +333,59 @@ footer .email {
 /*********************************WORK PAGE*****************************/
 /*****Work*****/
 .work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #969e74;
-  text-align: center;
-  font-size: 20px;
-  line-height: 30px;
-  padding: 0 50px;
-}
-.work .full-width{
-  padding:115px 0;
-}
-.work h1 {
-  font-size: 50px;
-}
-.work p {
-  background: #ccdded;
-  padding: 20px;
-  box-sizing: border-box;
-}
-.work img{
-  padding-bottom: 30px;
-}
-.work h3{
-  font-size:40px;
-  line-height: 40px;
-  margin: 0 auto;
-  width: 190px;
-  padding: 20px 50px;
-}
-#rogue img {
-  width: 1200px;
-}
-#recipe img{
-  width: 600px;
-}
-#vision img{
-  width: 1200px;
 }
 
+.projects-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.projects-description h3 {
+  margin: 0;
+}
+.projects-description p {
+  color: #513c55;
+  line-height: 1.5em;
+}
+
+.project-examples {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+#rogue img {
+  width: 100%;
+}
+
+#recipe img{
+  width: 100%;
+}
+
+#vision img{
+  width: 100%;
+}
+
+#work-footer {
+  background-color: #969e74;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#work-footer .social-icons p {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 
 
@@ -476,8 +478,66 @@ footer .email {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /* Tablet styles here */
+
+  /*Header*/
+  header .content-wrapper {
+    justify-content: space-between;
+  }
+
+  header nav {
+    width: 35%;
+  }
+  .header-divider {
+    display: none;
+  }
+
+  #welcome-header {
+    text-align: left;
+    width: 70%;
+    padding: 50px 0 0 75px;
+  }
+
+  /*About Section*/
+  .about .content-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  .about-content {
+    width: 46%;
+  }
+
+  .about-content p {
+    line-height: 1.5em;
+  }
+
+  .about-content figure {
+    width: 80%;
+  }
+
+  /*Footer*/
+  footer .contact {
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  footer .content-wrapper {
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  footer .contact-content {
+  }
+
+  footer figure{
+    width: 40%;
+  }
 }
 
 @media print,
