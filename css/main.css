@@ -252,7 +252,7 @@ footer .social-icons{
 }
 
 footer .social-icons p i {
-  font-size: 2em
+  font-size: 2em;
   color: #513c55;
 }
 
@@ -325,7 +325,7 @@ footer .email {
 
 /* selected link */
 .about a:active {
- color:  color: #969e74;
+ color: #969e74;
  text-decoration: none;
 }
 
@@ -336,6 +336,7 @@ footer .email {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
   background-color: #969e74;
 }
 
@@ -362,14 +363,20 @@ footer .email {
   flex-flow: row wrap;
 }
 
+.work figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #rogue img {
-  width: 100%;
+  width: 90%;
 }
 #recipe img{
-  width: 100%;
+  width: 90%;
 }
 #vision img{
-  width: 100%;
+  width: 90%;
 }
 
 #work-footer {
@@ -487,6 +494,7 @@ footer .email {
   header nav {
     width: 35%;
   }
+
   .header-divider {
     display: none;
   }
