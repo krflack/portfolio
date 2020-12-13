@@ -498,6 +498,9 @@ footer .email {
      ================================================================= */
 
   /*Header*/
+  header {
+    height: 150px; 
+  }
   header .content-wrapper {
     justify-content: space-between;
   }
@@ -582,7 +585,7 @@ header nav {
 /*Footer*/
 
 footer .icons {
-  width: 300px; 
+  width: 300px;
 }
 footer .social-icons i {
   font-size: 2em;
