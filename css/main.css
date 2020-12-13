@@ -344,7 +344,7 @@ footer .email {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: column;
 }
 
 .projects-description h3 {
@@ -354,13 +354,14 @@ footer .email {
 .projects-description p {
   color: #513c55;
   line-height: 1.5em;
+  max-width: 800px;
 }
 
 .project-examples {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: column;
 }
 
 .work figure {
@@ -371,12 +372,15 @@ footer .email {
 
 #rogue img {
   width: 90%;
+  max-width: 800px;
 }
 #recipe img{
   width: 90%;
+  max-width: 800px;
 }
 #vision img{
   width: 90%;
+  max-width: 800px;
 }
 
 #work-footer {
@@ -483,8 +487,12 @@ footer .email {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 640px) {
   /* Tablet styles here */
+
+  /* ==================================================================
+      Home Page
+     ================================================================= */
 
   /*Header*/
   header .content-wrapper {
@@ -492,7 +500,8 @@ footer .email {
   }
 
   header nav {
-    width: 35%;
+    width: 45%;
+    font-size: 1.1em; 
   }
 
   .header-divider {
@@ -501,28 +510,14 @@ footer .email {
 
   #welcome-header {
     text-align: left;
-    width: 70%;
+    max-width: 600px;
     padding: 50px 0 0 75px;
   }
 
   /*About Section*/
-  .about .content-wrapper {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: row wrap;
-  }
-
-  .about-content {
-    width: 46%;
-  }
-
-  .about-content p {
-    line-height: 1.5em;
-  }
-
   .about-content figure {
     width: 80%;
+    max-width: 400px;
   }
 
   /*Footer*/
@@ -545,6 +540,53 @@ footer .email {
     width: 40%;
   }
 }
+
+/* ==================================================================
+    Work Page
+   ================================================================= */
+
+
+
+
+@media only screen and (min-width: 1200px) {
+/*Desktop Styles Here*/
+
+/* ==================================================================
+    Home Page
+   ================================================================= */
+
+header nav {
+  width: 35%;
+  font-size: 1.5em;
+}
+.about .content-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.about-content {
+  width: 46%;
+}
+
+.about-content p {
+  line-height: 2em;
+}
+
+}
+
+/* ==================================================================
+    Work Page
+   ================================================================= */
+
+
+
+
+
+
+
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
