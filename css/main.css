@@ -222,6 +222,7 @@ footer figure {
   align-items: center;
   flex-flow: row wrap;
   border: 6px solid #ffffff;
+  max-width: 500px;
 }
 
 footer .contact-content {
@@ -245,14 +246,15 @@ footer .icons {
   align-items: center;
   flex-flow: row wrap;
   width: 200px;
+  margin: 0;
 }
 
 footer .social-icons{
   margin: 20px;
 }
 
-footer .social-icons p i {
-  font-size: 2em;
+footer .social-icons i {
+  font-size: 1.5em;
   color: #513c55;
 }
 
@@ -388,6 +390,7 @@ footer .email {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 #work-footer .social-icons p {
@@ -501,7 +504,7 @@ footer .email {
 
   header nav {
     width: 45%;
-    font-size: 1.1em; 
+    font-size: 1.1em;
   }
 
   .header-divider {
@@ -528,16 +531,18 @@ footer .email {
   }
 
   footer .content-wrapper {
+    display: flex;
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
   }
 
   footer .contact-content {
+    width: 49%;
   }
 
   footer figure{
-    width: 40%;
+    width: 45%;
   }
 }
 
@@ -572,6 +577,15 @@ header nav {
 
 .about-content p {
   line-height: 2em;
+}
+
+/*Footer*/
+
+footer .icons {
+  width: 300px; 
+}
+footer .social-icons i {
+  font-size: 2em;
 }
 
 }
