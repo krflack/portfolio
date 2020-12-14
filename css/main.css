@@ -192,7 +192,8 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  width: 60%;
+  width: 80%;
+  max-width: 300px;
 }
 
 header nav ul {
@@ -499,7 +500,7 @@ footer .email {
 
   /*Header*/
   header {
-    height: 150px; 
+    height: 150px;
   }
   header .content-wrapper {
     justify-content: space-between;
@@ -507,6 +508,7 @@ footer .email {
 
   header nav {
     width: 45%;
+    max-width: none; 
     font-size: 1.1em;
   }
 
