@@ -169,10 +169,14 @@ header, footer {
   background: #d4d6d9;
 }
 
+header {
+  height: 200px;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   flex-flow: row wrap;
 }
 
@@ -351,15 +355,25 @@ footer .email {
 }
 
 .projects-description h3 {
-  margin: 0;
+  margin: 30px 0 0 0;
+  color: #ffffff;
 }
 
 .projects-description p {
-  color: #513c55;
+  color: #ffffff;
   line-height: 1.5em;
-  max-width: 800px;
+  max-width: 700px;
 }
 
+#class-projects {
+  background: url('../img/pano4.jpg') center no-repeat #333;
+  background-size: cover;
+}
+
+#project-divider {
+
+
+}
 .project-examples {
   display: flex;
   justify-content: center;
@@ -524,10 +538,11 @@ text-align: center;
 
   /*Header*/
   header {
-    height: 150px;
+    height: 100px;
   }
   header .content-wrapper {
     justify-content: space-between;
+    margin: 0;
   }
 
   header nav {
@@ -591,7 +606,7 @@ text-align: center;
 
 header nav {
   width: 35%;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 .about .content-wrapper {
   display: flex;
@@ -614,7 +629,7 @@ footer .icons {
   width: 300px;
 }
 footer .social-icons i {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 }
