@@ -367,6 +367,18 @@ footer .email {
   flex-flow: column;
 }
 
+.project-examples p {
+color: #513c55;
+line-height: 1.5em;
+max-width: 600px;
+text-align: center;
+}
+
+.project-examples h3 {
+  margin: 50px 0 0 0;
+
+}
+
 .work figure {
   display: flex;
   justify-content: center;
@@ -377,11 +389,23 @@ footer .email {
   width: 90%;
   max-width: 800px;
 }
-#recipe img{
+#rogue a {
+  display: flex;
+  justify-content: center;
+}
+#unplugged img{
   width: 90%;
   max-width: 800px;
 }
-#vision img{
+#unplugged a {
+  display: flex;
+  justify-content: center;
+}
+#cat a {
+  display: flex;
+  justify-content: center;
+}
+#cat img{
   width: 90%;
   max-width: 800px;
 }
@@ -508,7 +532,7 @@ footer .email {
 
   header nav {
     width: 45%;
-    max-width: none; 
+    max-width: none;
     font-size: 1.1em;
   }
 
