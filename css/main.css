@@ -399,6 +399,26 @@ text-align: center;
   align-items: center;
 }
 
+.project-examples figure img {
+  width: 90%;
+  max-width: 800px;
+}
+
+.project-examples a {
+  display: flex;
+  justify-content: center;
+}
+/*
+#election img {
+  width: 90%;
+  max-width: 800px;
+}
+
+#election a {
+  display: flex;
+  justify-content: center;
+}
+
 #rogue img {
   width: 90%;
   max-width: 800px;
@@ -423,6 +443,7 @@ text-align: center;
   width: 90%;
   max-width: 800px;
 }
+*/
 
 #work-footer {
   background-color: #969e74;
